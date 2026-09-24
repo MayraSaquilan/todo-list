@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tareas</title>
+    <link rel="icon" type="image/png" href="./img/logo.png">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Lista de tareas</h1>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Añadir una tarea</h2>
+
+            <form>
+                <label for="nueva-tarea">Nueva tarea</label>
+
+                <input
+                    type="text"
+                    id="nueva-tarea"
+                    name="nueva-tarea"
+                     
+                >
+            
+                <button type="submit">Añadir tarea</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Tareas pendientes</h2>
+
+            <ul id="lista-tareas"></ul>
+          
+         <button type="button" class="btn-eliminar-completadas" id="eliminar-completadas">
+               Eliminar tareas completadas
+         </button>
+
+         <button type="button" class="btn-eliminar-todas" id="eliminar-todas">
+              Eliminar todas las tareas
+         </button>
+        </section>
+
+    </main>
+
+    <script src="./js/app.js"></script>
+
+</body>
+</html>
