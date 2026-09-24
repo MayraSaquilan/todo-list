@@ -1,16 +1,30 @@
    #LISTA DE TAREAS
    
-##Proyecto de una Todo List realizada con JavaScript y DOM
+##Proyecto de una Todo List realizada con HTML, CSS, JavaScript puro, DOM y Eventos del navegador
 
 ###Descripción
-Esta aplicación permite visualizar una lista de tareas pendientes, marcar las tareas como completadas, poder eliminar tareas y añadir tareas.
-El proyecto está realizado como una práctica de JavaScript y DOM, aplicando conceptos de JavaScript puro y manipulación del DOM
+
+El proyecto parte de una lista de tareas estática y la convierte en una aplicación dinámica en la que el usuario puede añadir, completar y eliminar tareas.
+
+Esta aplicación permite gestionar una lista de tareas pendientes de forma sencilla.
+
+Las tareas se almacenan en JavaScript mediante un array de objetos. Cada tarea contiene:
+
+- El texto de la tarea.
+- 
+-  Su estado de completada o pendiente.
 
 ###Tecnologías utilizadas
+
+-HTML
+
+-CSS
 
 -JavaScript
 
 -DOM
+
+-EVENTOS DEL NAVEGADOR
 
 ##Estructura del proyecto
 
@@ -49,3 +63,15 @@ En dispositivos móviles:
 -Los botones ocupan todo el ancho disponible.
 
 -El contenido mantiene un diseño cómodo y sencillo.
+
+##Objetivo del proyecto
+
+El objetivo es practicar la creación de una aplicación web dinámica utilizando JavaScript puro y el DOM, separando la estructura, los estilos y la lógica de la aplicación.
+
+La organización del proyecto sigue la separación:
+
+HTML → estructura
+
+CSS → presentación
+
+JavaScript → comportamiento
