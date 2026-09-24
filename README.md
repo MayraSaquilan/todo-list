@@ -26,6 +26,8 @@ Las tareas se almacenan en JavaScript mediante un array de objetos. Cada tarea c
 
 -EVENTOS DEL NAVEGADOR
 
+-LOCALSTORAGE
+
 ##Estructura del proyecto
 
   todo-list/
@@ -51,6 +53,10 @@ Las tareas se almacenan en JavaScript mediante un array de objetos. Cada tarea c
 -Botones para eliminar tareas completadas y todas las tareas.
 
 -Diseño responsive para dispositivos móviles.
+
+-Guardar automáticamente las tareas en localStorage.
+
+-Recuperar las tareas guardadas al recargar la página.
 
 ###Diseño responsive
 
