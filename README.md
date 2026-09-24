@@ -1,4 +1,5 @@
    #LISTA DE TAREAS
+   
 ##Proyecto de una Todo List realizada con JavaScript y DOM
 
 ###Descripción
@@ -6,19 +7,22 @@ Esta aplicación permite visualizar una lista de tareas pendientes, marcar las t
 El proyecto está realizado como una práctica de JavaScript y DOM, aplicando conceptos de JavaScript puro y manipulación del DOM
 
 ###Tecnologías utilizadas
+
 -JavaScript
 -DOM
 
 ##Estructura del proyecto
-todo-list/
-│
-├── index.html
-└── css/
+
+  todo-list/
+  │
+  ├── index.html
+  └── css/
     └── styles.css
-|-js/
-   |_app.js
+  |-js/
+    |_app.js
    
 ##Funcionalidades
+
 -Mostrar una lista de tareas pendientes.
 -Marcar tareas como completadas mediante checkbox.
 -Mostrar visualmente las tareas completadas con texto tachado.
@@ -27,6 +31,7 @@ todo-list/
 -Diseño responsive para dispositivos móviles.
 
 ###Diseño responsive
+
 La aplicación se adapta a diferentes tamaños de pantalla.
 En dispositivos móviles:
 -El formulario se muestra en columna.
