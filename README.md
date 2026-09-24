@@ -9,6 +9,7 @@ El proyecto está realizado como una práctica de JavaScript y DOM, aplicando co
 ###Tecnologías utilizadas
 
 -JavaScript
+
 -DOM
 
 ##Estructura del proyecto
@@ -24,16 +25,25 @@ El proyecto está realizado como una práctica de JavaScript y DOM, aplicando co
 ##Funcionalidades
 
 -Mostrar una lista de tareas pendientes.
+
 -Marcar tareas como completadas mediante checkbox.
+
 -Mostrar visualmente las tareas completadas con texto tachado.
+
 -Formulario para añadir una nueva tarea.
+
 -Botones para eliminar tareas completadas y todas las tareas.
+
 -Diseño responsive para dispositivos móviles.
 
 ###Diseño responsive
 
 La aplicación se adapta a diferentes tamaños de pantalla.
+
 En dispositivos móviles:
+
 -El formulario se muestra en columna.
+
 -Los botones ocupan todo el ancho disponible.
+
 -El contenido mantiene un diseño cómodo y sencillo.
