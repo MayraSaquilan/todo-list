@@ -19,8 +19,10 @@ El proyecto está realizado como una práctica de JavaScript y DOM, aplicando co
   ├── index.html
   └── css/
     └── styles.css
-  |-js/
-    |_app.js
+  |- js/
+    |_ app.js
+ |- img/
+    |- logo.png
    
 ##Funcionalidades
 
